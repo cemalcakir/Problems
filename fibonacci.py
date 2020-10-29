@@ -1,3 +1,4 @@
+# Very basic program to print Fibonacci numbers.
 a = 0
 b = 1
 # Value cap
