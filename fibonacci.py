@@ -1,7 +1,8 @@
 # A very basic script to print out Fibonacci numbers.
 a = 0
 b = 1
-# Value cap
-while a < 1000:
+x = 20
+
+for i in range(x):
     print(a)
     a, b = b, a+b
