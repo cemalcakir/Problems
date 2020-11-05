@@ -1,0 +1,23 @@
+x = 10
+
+def fibonacci_for(number):
+	# A very basic script to print out Fibonacci numbers.
+	a = 0
+	b = 1
+	for i in range(20):
+    	# print(a)
+		a, b = b, a+b
+	return a
+
+print(fibonacci_for(x))
+
+def fibonacci_recursive(number):
+	# Recursive function to call fibonacci numbers, it takes a lot of time to calculate if x > 30
+	if number == 0:
+		return 0
+	if number == 1:
+		return 1
+	else:
+		return fibonacci_recursive(number - 2) + fibonacci_recursive (number - 1)
+
+print(fibonacci_recursive(x))
