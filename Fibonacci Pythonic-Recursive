@@ -12,7 +12,7 @@ def fibonacci_for(number):
 print(fibonacci_for(n))
 
 def fibonacci_recursive(number):
-	# Recursive function to call the nth fibonacci number, it takes a lot of time to calculate if x > 30
+	# Recursive function to call the nth fibonacci number, it takes a lot of time to calculate if n > 30
 	if number == 0:
 		return 0
 	if number == 1:
