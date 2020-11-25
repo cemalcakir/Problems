@@ -4,7 +4,7 @@ For numbers which are multiples of both three and five print “FizzBuzz."""
 def fizzBuzz(**kwargs):
 	for i in range(1, 101):
 		output = ""
-		# Keys can not be integers in Python dictionaries, so I used value as key.
+		# Can not use integers as key in **kwargs
 		for key, value in kwargs.items():
 			if not i % value:
 				output += key
