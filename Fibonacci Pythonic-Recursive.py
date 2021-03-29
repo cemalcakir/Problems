@@ -11,9 +11,6 @@ def fibonacci_for(number):
     return a
 
 
-print(fibonacci_for(n))
-
-
 def fibonacci_recursive(number):
     # Recursive function to call the nth fibonacci number, it takes a lot of time to calculate if n > 30
     if number == 0:
@@ -24,4 +21,4 @@ def fibonacci_recursive(number):
         return fibonacci_recursive(number - 2) + fibonacci_recursive(number - 1)
 
 
-print(fibonacci_recursive(n))
+"Yeni branch deneme"
