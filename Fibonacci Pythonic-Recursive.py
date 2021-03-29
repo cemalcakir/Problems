@@ -1,6 +1,3 @@
-n = 10
-
-
 def fibonacci_for(number):
     # A very basic script to print out Fibonacci numbers.
     a = 0
