@@ -13,8 +13,10 @@ public class Fibonacci {
 			first = second;
 			second = temp;
 		}
+		// For positive numbers and odd negative numbers
 		if (n >= -1 || n % 2 == -1) {
 			return first;
+		// For even negative numbers
 		} else {
 			return -first;
 		}
